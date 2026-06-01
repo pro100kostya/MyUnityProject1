@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\PixelCrew\Hero.cs" />
     <Compile Include="Assets\PixelCrew\HeroInputReader.cs" />
+    <Compile Include="Assets\PixelCrew\LayerCheck.cs" />
     <Compile Include="Assets\UserInput\HeroInputAction.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

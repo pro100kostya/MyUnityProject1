@@ -7,7 +7,7 @@
             "actions": [
                 {
                     "name": "HorizontalMovement",
-                    "type": "Button",
+                    "type": "Value",
                     "id": "84d46e98-ce3e-4f51-b10d-c69b583c0b67",
                     "expectedControlType": "Button",
                     "processors": "",
@@ -26,6 +26,14 @@
                     "type": "Button",
                     "id": "f99364f9-2f40-4bd0-8ba4-c97ac8e69d9c",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "movement",
+                    "type": "Value",
+                    "id": "1597acea-d97a-4192-a40f-5cc4fc58acb7",
+                    "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": ""
                 }
@@ -171,6 +179,61 @@
                     "processors": "",
                     "groups": "",
                     "action": "VerticalMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "ac868da2-12a7-49b6-96ce-fa27d33c6e26",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "58f000eb-4807-4662-b16d-083755a7967f",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "53746db0-9196-4a55-a451-77db450b1a78",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "e8ad2b1d-ea3f-4246-b225-6fe4fc084776",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "b21f9276-b69e-425e-998a-1f7f56bf16b8",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "movement",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
