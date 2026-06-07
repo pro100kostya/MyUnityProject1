@@ -64,9 +64,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\PixelCrew\Coin.cs" />
+    <Compile Include="Assets\PixelCrew\Components\DestroyObjectComponent.cs" />
+    <Compile Include="Assets\PixelCrew\Components\EnterTriggerComponent.cs" />
+    <Compile Include="Assets\PixelCrew\Components\ReloadLevelComponent.cs" />
+    <Compile Include="Assets\PixelCrew\FollowTarget.cs" />
     <Compile Include="Assets\PixelCrew\Hero.cs" />
     <Compile Include="Assets\PixelCrew\HeroInputReader.cs" />
     <Compile Include="Assets\PixelCrew\LayerCheck.cs" />
+    <Compile Include="Assets\PixelCrew\WalletManager.cs" />
     <Compile Include="Assets\UserInput\HeroInputAction.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -602,6 +608,10 @@
       <Project>{9DC54C43-50D1-95EB-BB01-5C3160E083A4}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{9E44B14B-2459-0578-8F25-B879A3343454}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Runtime.csproj">
       <Project>{3282F605-1BA0-A72B-E013-0963239ECC0E}</Project>
       <Name>Unity.2D.Animation.Runtime</Name>
@@ -689,6 +699,10 @@
     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
       <Project>{9E26B539-EAC4-B7BE-036E-84FC9060F1DF}</Project>
       <Name>Unity.2D.Animation.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{2A42A239-2F66-AD04-0E50-84DCF0A40EC2}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
       <Project>{546FCC2C-381C-6D8B-E6B6-4B7DAD5BBD36}</Project>

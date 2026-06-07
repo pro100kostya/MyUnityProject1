@@ -11,6 +11,7 @@ public class Hero : MonoBehaviour
     private Vector2 _direction;
     private Rigidbody2D _rigidbidy;
 
+
     private void Awake()
     {
         _rigidbidy = GetComponent<Rigidbody2D>();
