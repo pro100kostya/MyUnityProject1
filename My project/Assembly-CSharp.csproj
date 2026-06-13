@@ -68,6 +68,7 @@
     <Compile Include="Assets\PixelCrew\Components\DestroyObjectComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\EnterTriggerComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\ReloadLevelComponent.cs" />
+    <Compile Include="Assets\PixelCrew\Components\SpriteAnimationComponent.cs" />
     <Compile Include="Assets\PixelCrew\FollowTarget.cs" />
     <Compile Include="Assets\PixelCrew\Hero.cs" />
     <Compile Include="Assets\PixelCrew\HeroInputReader.cs" />
