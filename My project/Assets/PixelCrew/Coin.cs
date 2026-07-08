@@ -5,9 +5,16 @@ public class Coin : MonoBehaviour
 {
     [SerializeField] private int _cost;
 
+    private WalletManager _walletManager;
+
+    private void Start()
+    {
+        _walletManager = WalletManager.GetInstance();
+    }
+
     public void Collect()
     {
-        WalletManager.GetInstance().AddCoins(_cost);
-        WalletManager.GetInstance().PrintBalance();
+        _walletManager.AddCoins(_cost);
+        _walletManager.PrintBalance();
     }
 }

@@ -18,14 +18,25 @@ namespace PixelCrew
             return _instance;
         }
 
-        public void AddCoins(int cost)
+        public void AddCoins(int val)
         {
-            _coins += cost;
+            _coins += val;
+        }
+
+        public void SubtractCoins(int val)
+        {
+            _coins -= val;
+            if (_coins < 0) _coins = 0;
         }
 
         public void PrintBalance()
         {
             Debug.Log(_coins);
+        }
+
+        public int GetCoinsCount()
+        {
+            return _coins;
         }
     }
 }

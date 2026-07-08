@@ -73,6 +73,7 @@
     <Compile Include="Assets\PixelCrew\Components\HealthModifierComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\InteractableComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\ReloadLevelComponent.cs" />
+    <Compile Include="Assets\PixelCrew\Components\SpawnComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\SpriteAnimationComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\SwitchComponent.cs" />
     <Compile Include="Assets\PixelCrew\Components\TeleportComponent.cs" />
