@@ -80,6 +80,7 @@
     <Compile Include="Assets\PixelCrew\FollowTarget.cs" />
     <Compile Include="Assets\PixelCrew\Hero.cs" />
     <Compile Include="Assets\PixelCrew\HeroInputReader.cs" />
+    <Compile Include="Assets\PixelCrew\JumpPotion.cs" />
     <Compile Include="Assets\PixelCrew\LayerCheck.cs" />
     <Compile Include="Assets\PixelCrew\WalletManager.cs" />
     <Compile Include="Assets\UserInput\HeroInputAction.cs" />

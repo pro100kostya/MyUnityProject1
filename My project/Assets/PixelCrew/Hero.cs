@@ -183,4 +183,9 @@ public class Hero : MonoBehaviour
         _jumpParticles.Spawn();
     }
 
+    public void ModifyJumpSpeed(float delta)
+    {
+        _jumpSpeed += delta;
+    }
+
 }
